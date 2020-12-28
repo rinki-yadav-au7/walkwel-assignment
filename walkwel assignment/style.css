@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: lato;
+}
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-align: center;
+	flex-direction: row;
+}
+.box{
+	width: 270px;
+	height: 400px;
+	box-shadow: 0px 0px 7px 3px gray;
+	text-align: center;
+	margin: 25px auto;
+	transition: all 0.5s;
+}
+.box:hover{
+	filter: brightness(1.2);
+}
+h3{
+	margin-top: 10px;
+	font-size: 16px;
+	color: white;
+}
+.box-sub{
+	width: 270px;
+	height: 90px;
+	background-color: rgba(0,0,0,0.5);
+	line-height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+	font-size: 25px;
+	font-weight: 500;
+	color: white;
+}
+.circle{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: linear-gradient(to top, blue, skyblue, white);
+	box-shadow: 0px 0px 10px 2px blue;
+	margin: 60px auto;
+	line-height: 88px;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 400;
+	color: white;
+}
+.bg1{
+	background: url(Images/img1.jpg) no-repeat center center;
+	background-size: cover;
+}
+.bg2{
+	background: url(Images/img2.png) no-repeat center center;
+	background-size: cover;
+}
+.bg3{
+	background: url(Images/img3.jpg) no-repeat center center;
+	background-size: cover;
+}
+.bg4{
+	background: url(Images/img4.jpg) no-repeat center center;
+	background-size: cover;
+}
+.c1{
+	background: linear-gradient(to top, red, orange, white);
+	box-shadow: 0px 0px 10px 2px red;
+}
+.c2{
+	background: linear-gradient(to top, purple, blue, pink);
+	box-shadow: 0px 0px 10px 2px purple;
+}
+.c3{
+	background: linear-gradient(to top, green, darkgreen, white);
+	box-shadow: 0px 0px 10px 2px green;
+}
